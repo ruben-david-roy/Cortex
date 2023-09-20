@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results for <%= query %></title>
+    <link rel="stylesheet" href="css/results.css">
+</head>
+
+<body>
+    <h1>Cortex</h1>
+    <h3>Search Results for "<%= query %>"</h3>
+    <br>
+    <form action="https://search.dark9015.repl.co/search" method="get">
+        <input type="text" name="q" placeholder="Search..." value="<%= query %>" required>
+    </form>
+    <br>
+    <% results.forEach(result => { %>
+    <div>
+        <a href="<%= result.link %>"><%= result.title %></a>
+        <p><%= result.snippet %></p>
+    </div>
+    <% }); %>
+    
+    <a class="back-link" href="/">Back to Search</a>
+    <br>
+</body>
+    <script>
+        const form = document.querySelector("form");
+        form.addEventListener('submit', function (e) {
+            const searchQuery = form.querySelector('input[name="q"]').value.trim();
+            if (!searchQuery) {
+                e.preventDefault();
+            }
+        });
+    </script>
+</html>
