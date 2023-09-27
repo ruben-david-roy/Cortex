@@ -54,7 +54,7 @@ Cortex is a **fast** and **lightweight**, Express-based search engine web applic
 1. **Start the Server**:
 
     ```bash
-    npm start
+    npm run start
     ```
 2. **Access the Web Application**: Open your favorite browser and head to:
 
