@@ -19,7 +19,6 @@ Cortex is a **fast** and **lightweight**, Express-based search engine web applic
 - [🚀 Usage](#usage)
 - [🤝 Contribute](#contribute)
 - [📜 License](#license)
-- [🙏 Acknowledgements](#acknowledgements)
 
 
 ## 🌟 Features
@@ -69,13 +68,7 @@ Cortex is a **fast** and **lightweight**, Express-based search engine web applic
 
 # 📜 License
 
-Distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-# 🙏 Acknowledgements
-
-- A huge shoutout to DuckDuckGo API for their invaluable free-to-use search API.
-- Kudos to the Express.js community for such a great web server framework.
-- A hearty thanks to everyone who has provided feedback and suggestions.
+Distributed under the MIT License. See the [LICENSE](LICENSE) for more information.
 
 <p align="center">
     <strong>Happy Searching with Cortex! 🚀</strong>
