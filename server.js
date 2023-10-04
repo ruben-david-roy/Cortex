@@ -35,5 +35,5 @@ app.get('/search', async (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`Server started on http://localhost:${PORT}`);
+    console.log(`Cortex Search Engine has started on http://localhost:${PORT}`);
 });
