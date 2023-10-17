@@ -24,7 +24,7 @@ app.get('/search', async (req, res) => {
 
     // search main
     try {
-        const response = await axios.get(`https://ddg-api.herokuapp.com/search?query=${query}&limit=30`);
+        const response = await axios.get(`https://cortexapi.dark9015.repl.co/search?query=${query}&limit=30`);
         const results = response.data;
         res.render('results', { query: query, results: results });
     } catch (error) {
