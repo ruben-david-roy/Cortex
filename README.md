@@ -2,7 +2,7 @@
     <h1 align="center">Cortex - Search Engine</h1>
 </p>
 
-Cortex is a **fast** and **lightweight**, Express-based search engine web application.
+Cortex is a **fast** and **lightweight**, Express-based search engine web application. The sucessor to LookItUp.
 
 <p align="center">
     <img src="img/index.png" alt="Cortex Index" width="400"/>
